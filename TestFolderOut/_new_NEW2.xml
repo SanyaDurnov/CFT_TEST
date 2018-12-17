@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+<Account type="Account" required="true" digitOnly="true" value="12345678" ndfame="MY_ACC"></Account>
+<Fio type="Fio" name="MY_FIO" readOnly="true" value="Иванов Иван Иванович"></Fio>
+<Address type="Address" name="MY_ADDRESS" readOnly="true" street="Нарымскаdfя" house="1" flat="2"></Address>
+<Counter type="Counter" name="COUNT1" required="true" value="104"></Counter>
+<Counter type="Counter" name="COUNT2" required="true" value="764"></Counter>
+<Sum type="Sum" name="PAY_SUM" required="true" value="100"></Sum>
+<Sum type="Sum" name="df" readOnly="true" value="2.5"></Sum>
+<Sum type="Sum" name="TOTAL_SUM" required="true" value="102.5"></Sum>
+</Data>

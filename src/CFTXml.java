@@ -1,0 +1,29 @@
+public interface CFTXml {
+    String ADDRESS_SPLITER = ",";
+    String ADDRESS_STREET = "street";
+    String ADDRESS_HOUSE = "house";
+    String ADDRESS_FLAT = "flat";
+    String FIELD_TAG = "Field";
+    String NAME_TAG = "name";
+    String TYPE_TAG = "type";
+    String VALUE_TAG = "value";
+    String REQUIRED_TAG = "required";
+    String DIGITONLY_TAG = "digitOnly";
+    String READONLY_TAG = "readOnly";
+    String XML_VERSION = "1.0";
+    String XML_ENCODING = "utf-8";
+    String XML_FIRSTELEMNT = "Data";
+    String TYPE_ACCOUNT = "Account";
+    String TYPE_FIO = "Fio";
+    String TYPE_ADDRESS = "Address";
+    String TYPE_COUNTER = "Counter";
+    String TYPE_SUM = "Sum";
+    String[] ATRIBUTES_TYPE_ACCOUNT = {TYPE_TAG,NAME_TAG,REQUIRED_TAG,DIGITONLY_TAG,VALUE_TAG};
+    String[] ATRIBUTES_TYPE_FIO = {TYPE_TAG,NAME_TAG,READONLY_TAG,VALUE_TAG};
+    String[] ATRIBUTES_TYPE_ADDRESS = {TYPE_TAG,NAME_TAG,READONLY_TAG,ADDRESS_STREET,ADDRESS_HOUSE,ADDRESS_FLAT};
+    String[] ATRIBUTES_TYPE_COUNTER = {TYPE_TAG,NAME_TAG,REQUIRED_TAG,VALUE_TAG};
+    String[] ATRIBUTES_TYPE_SUM = {TYPE_TAG,NAME_TAG,REQUIRED_TAG, READONLY_TAG, VALUE_TAG};
+    String[] ATRIBUTES_TYPE_UNKNOWN = {TYPE_TAG,NAME_TAG,REQUIRED_TAG, READONLY_TAG, VALUE_TAG};
+    String[] BOOLEAN_ATRIBUTES = {READONLY_TAG,REQUIRED_TAG,DIGITONLY_TAG};
+    String[] ADDRESS_CONTAINS = {ADDRESS_STREET,ADDRESS_HOUSE,ADDRESS_FLAT};
+}
